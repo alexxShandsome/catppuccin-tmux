@@ -78,7 +78,7 @@ main() {
   readonly user
 
   local user_icon
-  user_icon="$(get_tmux_option "@catppuccin_user_icon" "")"
+  user_icon="$(get_tmux_option "@catppuccin_user_icon" " ")"
   readonly user_icon
 
   local host
